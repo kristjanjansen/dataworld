@@ -1,0 +1,22 @@
+data:
+
+  - file: countries.csv
+    master: true 
+
+  - file: population.csv
+    value: population
+    display: population
+    border: true
+    color: "#123"
+    opacity: 0.15
+    multiplier: 0.0002
+    add: 0
+
+  - file: broadband.csv
+    value: broadband
+    display: percentage
+    border: true
+    color: "#123"
+    opacity: 0.5
+    multiplier: 0.0002
+    add: 0
